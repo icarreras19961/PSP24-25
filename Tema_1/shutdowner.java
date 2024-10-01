@@ -9,7 +9,7 @@ public class shutdowner {
         int numUser = 0;
         try {
             numUser = lect.nextInt();
-
+            
         } catch (Exception e) {
             System.out.println("Valor Incorrecot");
             e.printStackTrace();
