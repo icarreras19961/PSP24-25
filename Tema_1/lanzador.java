@@ -18,11 +18,11 @@ public class lanzador {
             success = p.waitFor();
 
             if (success == 1) {
-            System.out.println("Correcto");
+                System.out.println("Correcto");
             } else if (success == -1) {
-            System.out.println("Incorrecto");
+                System.out.println("Incorrecto");
             } else {
-            System.out.println("Algo a salido mal");
+                System.out.println("Algo a salido mal");
             }
         } catch (Exception e) {
             e.printStackTrace();
