@@ -1,0 +1,13 @@
+ El volumen de la unidad H es Ivan _T5
+ El n£mero de serie del volumen es: FA2B-8948
+
+ Directorio de H:\DAM 2\PSP\Tema_1
+
+23/09/2024  17:20    <DIR>          .
+23/09/2024  17:20    <DIR>          ..
+26/09/2024  12:36             2.572 Ejer1.java
+30/09/2024  19:30             1.784 shutdowner.java
+07/10/2024  17:50    <DIR>          ejer1-4
+07/10/2024  17:52    <DIR>          ejer1-5
+               2 archivos          4.356 bytes
+               4 dirs  447.091.441.664 bytes libres
