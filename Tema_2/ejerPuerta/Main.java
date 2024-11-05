@@ -1,5 +1,3 @@
-package Tema_2.ejerPuerta;
-
 @Deprecated
 public class Main {
 
