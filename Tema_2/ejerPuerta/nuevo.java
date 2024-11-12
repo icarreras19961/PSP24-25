@@ -1,12 +1,13 @@
 public class nuevo {
 
     static int productos = 100;
+    //para que los hilos puedan acceder a esta variable 
+    static int intentos = 0;
 
     public static class Almacen extends Thread {
         Puerta puerta = new Puerta();
         int nuser;
         boolean tiene = false;
-        int intentos = 0;
 
         public void setNuser(int nuser) {
             this.nuser = nuser;
@@ -33,7 +34,6 @@ public class nuevo {
                     System.out.println("El cliente " + nuser + " lo logro en: " + intentos);
                     break;
                 } else {
-
                     if (intentos >= 10) {
                         System.out.println("El cliente " + nuser + " se ha cansado de intentarlo");
                         break;
