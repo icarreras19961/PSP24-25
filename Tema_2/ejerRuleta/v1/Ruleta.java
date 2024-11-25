@@ -1,5 +1,6 @@
+package v1;
 public class Ruleta {
-    public static int resultado;
+    public int resultado;
 
     public int getResultado() {
         return resultado;
@@ -9,12 +10,12 @@ public class Ruleta {
         this.resultado = resultado;
     }
 
-    public void giraRuleta() {
-        this.resultado = (int) (Math.random() * 36);
+    public int giraRuleta() {
         notifyAll();
+        return (int) (Math.random() * 36);
     }
 
-    public static boolean esPar() {
+    public boolean esPar() {
         if (resultado % 2 == 0) {
             return true;
         } else {
