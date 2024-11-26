@@ -3,13 +3,13 @@ import java.util.ArrayList;
 public class Barberia {
 
     public static void main(String[] args) {
-        ArrayList<Barbero> barberos = new ArrayList<>();
         ArrayList<Silla> sillas = new ArrayList<>();
 
         for (int i = 0; i <= 5; i++) {
             Barbero barbero = new Barbero();
+            barbero.setSillas(sillas);
             barbero.setNbarber(i);
-            barberos.add(barbero);
+            barbero.start();
         }
         for (int i = 0; i <= 10; i++) {
             Silla silla = new Silla();
@@ -26,6 +26,7 @@ public class Barberia {
             Cliente cliente = new Cliente();
             cliente.setnCliente(nCliente);
             cliente.setSillas(sillas);
+            cliente.start();
         }
     }
 }

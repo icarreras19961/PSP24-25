@@ -1,6 +1,15 @@
 public class Silla extends Thread{
     boolean ocupada = false;
     int nsilla;
+    Cliente clienteSentado;
+    
+    public Cliente getClienteSentado() {
+        return clienteSentado;
+    }
+
+    public void setClienteSentado(Cliente clienteSentado) {
+        this.clienteSentado = clienteSentado;
+    }
 
     public int getNsilla() {
         return nsilla;
@@ -19,5 +28,4 @@ public class Silla extends Thread{
     }
 
     
-
 }
