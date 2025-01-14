@@ -1,4 +1,4 @@
-package Ejercicio3_4;
+package Ejercicio_3_4;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -26,6 +26,8 @@ public class MainServer {
             salida = clienteConect.getOutputStream();
             DataOutputStream flujosalida = new DataOutputStream(salida);
             flujosalida.writeInt(nUser);
+            
+
             
         } catch (Exception e) {
             // TODO: handle exception
